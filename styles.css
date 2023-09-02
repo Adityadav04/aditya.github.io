@@ -14,11 +14,16 @@ body {
 }
 
 .links a {
-    text
     color: black;
     font-weight: bold;
-    transition:color 0.3s; /* Add a smooth color transition effect */
+    text-decoration: none; /* Remove the underline */
+    transition: color 0.3s; /* Add a smooth color transition effect */
 }
+
+.links a:hover {
+    color: gray; /* Change the color when hovered */
+}
+
 
 .links a:hover {
     color: gray; /* Change the color when hovered */
