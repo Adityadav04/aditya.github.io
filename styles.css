@@ -13,6 +13,15 @@ body {
     /* White with 55% transparency */
 }
 
+.links a {
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s; /* Add a smooth color transition effect */
+}
+
+.links a:hover {
+    color: gray; /* Change the color when hovered */
+}
 
 .container {
     display: flex;
