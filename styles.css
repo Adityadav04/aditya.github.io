@@ -16,7 +16,7 @@ body {
 .links a {
     color: black;
     font-weight: bold;
-    transition: color 0.3s; /* Add a smooth color transition effect */
+    transition:color 0.3s; /* Add a smooth color transition effect */
 }
 
 .links a:hover {
