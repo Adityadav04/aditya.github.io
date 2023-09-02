@@ -24,11 +24,6 @@ body {
     color: gray; /* Change the color when hovered */
 }
 
-
-.links a:hover {
-    color: gray; /* Change the color when hovered */
-}
-
 .container {
     display: flex;
     justify-content: center;
