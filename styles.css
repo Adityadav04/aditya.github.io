@@ -15,9 +15,9 @@ body {
 
 .links a {
     color: black;
-    font-weight: bold;
     text-decoration: none; /* Remove the underline */
     transition: color 0.3s; /* Add a smooth color transition effect */
+    font-size: 30px;
 }
 
 .links a:hover {
@@ -137,12 +137,6 @@ h1 {
     }
 
 }
-a{
- font-size: 30px;
-    
-}
-
-
 @media (max-width: 850px) {
     img {
         height: 0px;
